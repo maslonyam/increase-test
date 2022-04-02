@@ -1,0 +1,5 @@
+@mixin block($back-color, $font-color) {
+  color: $font-color;
+
+  background-color: $back-color;
+}
