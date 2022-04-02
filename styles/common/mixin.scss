@@ -1,4 +1,7 @@
-@mixin block($back-color, $font-color) {
+@mixin block($back-color, $font-color, $padding: 20px) {
+  padding: $padding;
+  border-radius: 10px;
+
   background-color: $back-color;
   color: $font-color;
 }
