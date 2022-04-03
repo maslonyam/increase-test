@@ -1,4 +1,4 @@
 .main {
-  @include flex(column);
+  @include flex(column, stretch);
   order: 2;
 }
