@@ -1,14 +1,12 @@
 .tile {
   &-list {
-    display: flex;
-    flex-direction: row;
+    @include flex();
     flex-wrap: wrap;
-    gap: $margin;
 
     &__item {
+      @include flex(row, center);
       @include block($light-grey, $dark-grey);
-      display: flex;
-      align-items: center;
+
       flex-basis: 135px;
       height: 150px;
 

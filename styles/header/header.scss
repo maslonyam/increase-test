@@ -1,7 +1,5 @@
 .header {
-  display: flex;
-  align-items: stretch;
-  gap: $margin;
+  @include flex(row, stretch, start);
   margin-top: $margin;
 
   &__logo,

@@ -1,6 +1,4 @@
 .main {
-  display: flex;
-  flex-direction: column;
+  @include flex(column);
   order: 2;
-  gap: $margin;
 }

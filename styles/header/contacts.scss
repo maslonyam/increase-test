@@ -1,8 +1,10 @@
 .header{
   &__contacts {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+    @include flex(column, flex-end, start, 0);
     flex-grow: 8;
+
+    @media (max-width: $tablet) {
+      flex-grow: 2;
+    }
   }
 }

@@ -4,3 +4,11 @@
   background-color: $back-color;
   color: $font-color;
 }
+
+@mixin flex($direction: row, $align: flex-start, $justify: start, $gap: $margin) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  justify-content: $justify;
+  gap: $gap;
+}
