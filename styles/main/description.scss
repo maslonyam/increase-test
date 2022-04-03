@@ -6,7 +6,7 @@
 
 .description {
   &-list {
-    padding: 0 $margin;
+    padding-left: $margin;
     &__item {
       list-style: circle;
     }
