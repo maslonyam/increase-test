@@ -2,4 +2,19 @@
   @include block($dark-grey, $white, 20px 13px);
   flex-shrink: 0;
   flex-basis: 185px;
+  
+  &__header {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: $tablet) {
+    &__header {
+      text-align: center;
+    }
+
+    &-list {
+      text-align: center;
+      column-count: 2;
+    }
+  }
 }

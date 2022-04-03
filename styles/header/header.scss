@@ -6,6 +6,6 @@
   &__more,
   &__contacts {
     @include block($dark-grey, $white);
-    height: 108px;
+    max-height: 108px;
   }
 }

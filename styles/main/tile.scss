@@ -3,14 +3,22 @@
     @include flex();
     flex-wrap: wrap;
 
+    @media (max-width: $tablet) {
+      justify-content: center;
+    }
+
     &__item {
       @include flex(row, center);
       @include block($light-grey, $dark-grey);
 
       flex-basis: 135px;
-      height: 150px;
+      min-height: 150px;
 
       text-align: center;
+
+      @media (max-width: $tablet) {
+        flex-basis: 125px;
+      }
     }
   }
 }

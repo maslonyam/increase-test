@@ -1,5 +1,14 @@
 .header {
   &__more {
-    flex-grow: 6;
+    flex-basis: 40%;
+    flex-grow: 1;
+
+    @media (max-width: $desktop) {
+      flex-basis: 30%;
+    }
+
+    @media (max-width: $tablet) {
+      display: none;
+    }
   }
 }

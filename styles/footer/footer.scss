@@ -2,6 +2,10 @@
   @include flex(row, stretch);
   padding-bottom: $margin;
 
+  @media (max-width: $tablet) {
+    flex-direction: column;
+  }
+
   &__info,
   &__rate {
     @include block($dark-grey, $white);
