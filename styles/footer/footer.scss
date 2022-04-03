@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  align-items: stretch;
+  gap: $margin;
+  padding-bottom: $margin;
+
+  &__info,
+  &__rate {
+    @include block($dark-grey, $white);
+    flex-grow: 1;
+    flex-basis: 30%;
+  }
+}

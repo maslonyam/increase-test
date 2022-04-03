@@ -1,0 +1,8 @@
+.rate {
+  &-list {
+    padding-left: $margin;
+    &__item {
+      list-style: square;
+    }
+  }
+}

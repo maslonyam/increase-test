@@ -1,0 +1,18 @@
+.footer {
+  &__contacts {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 30%;
+    gap: $margin;
+  }
+}
+
+.contacts {
+  &__socials,
+  &__connect {
+    @include block($dark-grey, $white);
+    display: flex;
+    flex-direction: column;
+  }
+}
