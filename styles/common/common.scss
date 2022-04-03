@@ -14,3 +14,10 @@ body {
     padding: 20px;
   }
 }
+
+.content-wrapper {
+  border-top: 1px solid $dark-grey;
+  border-bottom: 1px solid $dark-grey;
+  margin: $margin 0;
+  padding: $margin 0;
+}
