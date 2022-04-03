@@ -1,0 +1,4 @@
+.sidebar {
+  @include block($dark-grey, $white, 20px 13px);
+  flex-basis: 430px;
+}

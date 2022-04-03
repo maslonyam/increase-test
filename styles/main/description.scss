@@ -1,0 +1,14 @@
+.main {
+  &__description {
+    @include block($light-grey, $dark-grey);
+  }
+}
+
+.description {
+  &-list {
+    padding: 0 $margin;
+    &__item {
+      list-style: circle;
+    }
+  }
+}

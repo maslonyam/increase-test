@@ -16,6 +16,9 @@ body {
 }
 
 .content-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: $margin;
   border-top: 1px solid $dark-grey;
   border-bottom: 1px solid $dark-grey;
   margin: $margin 0;
