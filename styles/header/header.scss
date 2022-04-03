@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  gap: $margin;
+  align-items: stretch;
+  margin-top: $margin;
+
+  &__logo,
+  &__more,
+  &__contacts {
+    height: 108px;
+    @include block($dark-grey, $white, );
+  }
+}
