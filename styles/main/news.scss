@@ -1,0 +1,11 @@
+.main__news {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.news {
+  &__article {
+    @include block($light-grey, $dark-grey, 25px 20px);
+  }
+}

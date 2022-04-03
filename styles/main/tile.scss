@@ -1,0 +1,18 @@
+.tile {
+  &-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: $margin;
+
+    &__item {
+      @include block($light-grey, $dark-grey);
+      display: flex;
+      align-items: center;
+      flex-basis: 135px;
+      height: 150px;
+
+      text-align: center;
+    }
+  }
+}
